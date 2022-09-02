@@ -1,0 +1,99 @@
+.color{
+	color:red;
+
+}
+.container{
+	text-align:center;
+	margin-top:30px;
+}
+p{
+	margin:0auto;
+}
+.background{
+	background-color: red;
+	padding:15px 40px;
+	color:white;
+	border-style: none;
+	margin-right: 20px;
+}
+.button{
+	margin-top:80px;
+}
+h1{
+margin-top:80px;	
+}
+.border{
+	color:red;
+	padding:15px 40px;
+	border:1px solid red;
+}
+.second-container h3{
+color:red;
+
+} 
+.second-container{
+	margin-top:400px;
+	text-align:center;
+}
+.second-container p{
+	font-size:1.5em;
+}
+#last{
+	display:flex;
+	justify-content: center;
+    margin:190px;
+
+
+
+}
+#last div{
+	width:30%;
+	padding:35px;
+
+
+}
+#last h4{
+margin-bottom: 100px; 
+}
+#last .color{
+	padding-top:40px;
+}
+.foot{
+	text-align:center;
+}
+.link a{
+	color:red;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.link{
+	display:flex;
+    justify-content: center;
+    margin:200px 50px 200px 200px;
+}
+.link div{
+	  flex:30%;
+}
+@media screen and (max-width:1000px){
+	#last{
+		flex-direction:column;
+
+	}
+	#last div{
+			width:100%;
+			margin-top:300px;
+	}
+
+@media screen and (max-width:1200px){
+	#last div{
+		padding:15px;
+
+	}
+}
+@media (max-width:400px){
+     .link{
+     	flex-direction:column;
+    
+ }
+
+     }
